@@ -1,0 +1,343 @@
+@font-face {
+    src: url(../fuentes/Dosis-Regular.ttf) format('ttf');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+strong{
+  font-size: 1.5rem;
+  color: wheat;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    min-height: 40rem;
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+}
+
+/*----------------------------------------CUERPO--------------------------------------*/
+
+body {
+    background-color: #020710;
+}
+
+.contenedor{
+    background-color: #020710;
+}
+
+video{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/*-----------------------------------------ENCABEZADO-------------------------------------*/
+
+header{
+    background-color: #000527;
+    color: white;
+}
+.icono{
+  margin-left: -8em;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+nav {
+    background-color: #000527;
+    display: flex;
+    align-items: center;
+    height: 5em;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.logo{
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.3em;
+  width: 100%;
+  margin-left: 8em;
+}
+.right{
+  display: flex;
+  margin-left: 10em;
+}
+nav ul li{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+nav ul li a{
+  display: flex;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 80px;
+}
+.icono{
+  margin-top: -0.3em;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+.menu_right a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu_right a:hover {
+    color: #007bff;
+}
+
+/*--------------------------------------------PRIMERA-SECCION-----------------------------------------------------*/
+  
+.inicio {
+    background-color: #020710;
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+.inicio {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+  
+.inicio video {
+    /* display: block; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+.inicio h1 {
+    margin-top: 40px;
+    margin-bottom: 4rem;
+}
+  
+.inicio p {
+    font-size: 1.5rem;
+}
+  
+/*----------------------------------------SEGUNDA-SECCION-----------------------------------------*/
+
+.sec_entradas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0c2340, #2b5797);
+  }
+  
+  .entradas-izqd {
+    width: 60%;
+    height: 70%;
+    margin: 0;
+    text-align: left;
+    padding: 50px;
+  }
+
+  .entradas-drch {
+    width: 30%;
+    height: 70%;
+  }
+  
+  .entradas-izqd h2 {
+    font-size: 2.5rem;
+  }
+  
+  .entradas-izqd p {
+    font-size: 1.5rem;
+  }
+
+  .auditorio-img{
+    margin-top: 5rem;
+    margin-right: 5rem;
+    width: 12rem;
+    height: 8rem;
+  }
+  .ticket-img{
+    margin-top: 5rem;
+    width: 12rem;
+    height: 3rem;
+  }
+  .estatua-img{
+    width: 40rem;
+    height: 60rem;
+  }
+  
+  .boton {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    background-color: #000527;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+
+  .boton a{
+    text-decoration: none;
+  }
+  
+  .boton:hover {
+    background-color: #3498db;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+/*------------------------------------------------TERCERA-SECCION-----------------------------------------------------*/
+
+.sec_redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: #000527;
+  }
+  
+  .redes-izqd {
+    width: 30%;
+    height: 70%;
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .redes-drch {
+    width: 50%;
+    height: 70%;
+    padding-right: 7rem;
+  }
+  
+  .redes-izqd h2 {
+    font-size: 2.5rem;
+    /* margin-top: 40px; */
+  }
+  
+  .redes-izqd p {
+    font-size: 1.5rem;
+  }
+
+  .d-img{
+    width: 40rem;
+    height: 30rem;
+  }
+
+  .ig-img{
+    margin-top: 4rem;
+    margin-right: 4rem;
+  }
+  .twt-img{
+    margin-top: 4rem;
+  }
+  
+
+/*-----------------------------------------CUARTA-SECCION---------------------------------------------------------*/
+
+.sec_patroc {
+  min-height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020710;
+}
+
+.text{
+  width: 100%;
+  text-align: center;
+}
+
+.patrocinadores{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.patrocinadores img{
+  width: 10rem;
+  height: 5rem;
+  margin-right: 2rem;
+}
+
+.sec_patroc h3 {
+  text-align: center;
+}
+
+/*Mapa*/
+
+.map iframe{
+  width: 100%;
+  height: 20%;
+  min-height: 10rem;
+}
+
+/*---------------------------------------------------PIE----------------------------------------------------------*/
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 7rem;
+  background-color: #063970;
+}
+
+.pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#logo-pie{
+  width: 5rem;
+  height: 5rem;
+  margin-right: 17rem;
+}
+
+/*----------------------------------QUERIES-------------------------------------------*/
+
+@media screen and (min-width:481px) and (max-width:997px){
+  /*Estilos General del Contenido*/
+  
+  
+}
+@media screen and (max-width:480px){
+  
+  
+
+}

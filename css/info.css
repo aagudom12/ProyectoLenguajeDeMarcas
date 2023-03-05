@@ -1,0 +1,92 @@
+@font-face {
+  src: url(../fuentes/Dosis-Regular.ttf) format('ttf');
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CONTENIDO*/
+
+body {
+    background-color: #222;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  #header {
+    background-color: #f44336;
+    text-align: center;
+  }
+  
+  .icono{
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 48px;
+  }
+  
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .game {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    border: 2px solid #f44336;
+  }
+  
+  .game h2 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+  
+  .game img{
+    width: 50rem;
+    height: 30rem;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .game p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .game a {
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .game h2:hover {
+    color:  #e53935;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #f44336;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
